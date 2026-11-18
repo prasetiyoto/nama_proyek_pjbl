@@ -11,7 +11,7 @@ class ShuttleApiController extends Controller
     /**
      * Menampilkan seluruh data shuttle (Get All)
      */
-    public function index()
+    public function test()
     {
         $data = Shuttle::latest()->get();
         
