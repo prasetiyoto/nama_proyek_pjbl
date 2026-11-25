@@ -10,9 +10,8 @@ class ShuttleApiController extends Controller
 {
     /**
      * Menampilkan seluruh data shuttle (Get All)
-     * sudah tidak perlu diubah karena sudah sesuai dengan standar RESTful API
      */
-    public function ok()
+    public function index()
     {
         $data = Shuttle::latest()->get();
         
